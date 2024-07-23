@@ -3,7 +3,15 @@ import JobLists from './components/JobLists.vue'
 import ContactForm from './components/ContactForm.vue'
 import QRCode from './front-end-mentors/QRCode.vue'
 
-const routes = ['generate-table', 'contact-form', 'qr', 'accordion', 'temperature-converter']
+const routes = [
+  'generate-table',
+  'contact-form',
+  'qr',
+  'accordion',
+  'temperature-converter',
+  'progress-bar',
+  'stopwatch'
+]
 </script>
 
 <template>
