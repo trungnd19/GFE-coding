@@ -10,7 +10,10 @@ const routes = [
   'accordion',
   'temperature-converter',
   'progress-bar',
-  'stopwatch'
+  'stopwatch',
+  'progress-bar-moving',
+  'digital-clock',
+  'flight-booker'
 ]
 </script>
 
