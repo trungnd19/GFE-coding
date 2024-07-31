@@ -13,7 +13,8 @@ const routes = [
   'stopwatch',
   'progress-bar-moving',
   'digital-clock',
-  'flight-booker'
+  'flight-booker',
+  'vue-tab'
 ]
 </script>
 

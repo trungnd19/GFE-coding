@@ -9,6 +9,7 @@ import Stopwatch from './components/stopwatch/Stopwatch.vue'
 import ProgressBars from './components/progressBars/ProgressBars.vue'
 import DigitalClock from './components/digitalClock/DigitalClock.vue'
 import FlightBooker from './components/flightBooker/FlightBooker.vue'
+import TabPage from './components/vue-tab/TabPage.vue'
 
 const routes = [
   { path: '/generate-table', component: GenerateTable, name: 'generate-table' },
@@ -25,6 +26,7 @@ const routes = [
   { path: '/progress-bar-moving', component: ProgressBars, name: 'progress-bar-moving' },
   { path: '/digital-clock', component: DigitalClock, name:'digital-clock' },
   { path: '/flight-booker', component: FlightBooker, name:'flight-booker' },
+  { path: '/vue-tab', component: TabPage, name:'vue-tab' },
   { path: '/', component: GenerateTable }
 ]
 
