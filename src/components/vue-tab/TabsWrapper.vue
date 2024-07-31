@@ -11,9 +11,7 @@
         {{ title }}
       </li>
     </ul>
-    <!-- <KeepAlive> -->
     <slot> default content </slot>
-    <!-- </KeepAlive> -->
   </div>
 </template>
 
