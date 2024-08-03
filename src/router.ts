@@ -10,6 +10,8 @@ import ProgressBars from './components/progressBars/ProgressBars.vue'
 import DigitalClock from './components/digitalClock/DigitalClock.vue'
 import FlightBooker from './components/flightBooker/FlightBooker.vue'
 import TabPage from './components/vue-tab/TabPage.vue'
+import TrafficLight from './components/trafficLight/TrafficLight.vue'
+import TodoList from './components/todoList/TodoList.vue'
 
 const routes = [
   { path: '/generate-table', component: GenerateTable, name: 'generate-table' },
@@ -27,6 +29,8 @@ const routes = [
   { path: '/digital-clock', component: DigitalClock, name:'digital-clock' },
   { path: '/flight-booker', component: FlightBooker, name:'flight-booker' },
   { path: '/vue-tab', component: TabPage, name:'vue-tab' },
+  { path: '/traffic-light', component: TrafficLight, name:'traffic-light' },
+  { path: '/todo-list', component: TodoList, name:'todo-list' },
   { path: '/', component: GenerateTable }
 ]
 

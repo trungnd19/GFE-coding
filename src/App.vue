@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import JobLists from './components/JobLists.vue'
-import ContactForm from './components/ContactForm.vue'
-import QRCode from './front-end-mentors/QRCode.vue'
-
 const routes = [
   'generate-table',
   'contact-form',
@@ -14,7 +10,9 @@ const routes = [
   'progress-bar-moving',
   'digital-clock',
   'flight-booker',
-  'vue-tab'
+  'vue-tab',
+  'traffic-light',
+  'todo-list'
 ]
 </script>
 
