@@ -12,12 +12,15 @@ const routes = [
   'flight-booker',
   'vue-tab',
   'traffic-light',
-  'todo-list'
+  'todo-list',
+  'tweet-ui',
+  'like-button',
+  'mortgage-calculator'
 ]
 </script>
 
 <template>
-  <div>
+  <div class="route-list">
     <div v-for="route in routes">
       <RouterLink :to="'/' + `${route}`">{{ route }}</RouterLink>
     </div>
@@ -25,4 +28,8 @@ const routes = [
   <RouterView />
 </template>
 
-<style scoped></style>
+<style scoped>
+.route-list {
+  margin-bottom: 20px;
+}
+</style>

@@ -12,6 +12,9 @@ import FlightBooker from './components/flightBooker/FlightBooker.vue'
 import TabPage from './components/vue-tab/TabPage.vue'
 import TrafficLight from './components/trafficLight/TrafficLight.vue'
 import TodoList from './components/todoList/TodoList.vue'
+import TweetUI from './components/tweet/TweetUI.vue'
+import LikeButton from './components/likeButton/LikeButton.vue'
+import MortgageCalculator from './components/mortgageCalculator/MortgageCalculator.vue'
 
 const routes = [
   { path: '/generate-table', component: GenerateTable, name: 'generate-table' },
@@ -26,11 +29,14 @@ const routes = [
   },
   { path: '/stopwatch', component: Stopwatch, name: 'stopwatch' },
   { path: '/progress-bar-moving', component: ProgressBars, name: 'progress-bar-moving' },
-  { path: '/digital-clock', component: DigitalClock, name:'digital-clock' },
-  { path: '/flight-booker', component: FlightBooker, name:'flight-booker' },
-  { path: '/vue-tab', component: TabPage, name:'vue-tab' },
-  { path: '/traffic-light', component: TrafficLight, name:'traffic-light' },
-  { path: '/todo-list', component: TodoList, name:'todo-list' },
+  { path: '/digital-clock', component: DigitalClock, name: 'digital-clock' },
+  { path: '/flight-booker', component: FlightBooker, name: 'flight-booker' },
+  { path: '/vue-tab', component: TabPage, name: 'vue-tab' },
+  { path: '/traffic-light', component: TrafficLight, name: 'traffic-light' },
+  { path: '/todo-list', component: TodoList, name: 'todo-list' },
+  { path: '/tweet-ui', component: TweetUI, name: 'tweet-ui' },
+  { path: '/like-button', component: LikeButton, name: 'like-button' },
+  { path: '/mortgage-calculator', component: MortgageCalculator, name: 'mortgage-calculator' },
   { path: '/', component: GenerateTable }
 ]
 
