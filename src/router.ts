@@ -15,6 +15,7 @@ import TodoList from './components/todoList/TodoList.vue'
 import TweetUI from './components/tweet/TweetUI.vue'
 import LikeButton from './components/likeButton/LikeButton.vue'
 import MortgageCalculator from './components/mortgageCalculator/MortgageCalculator.vue'
+import SignupForm from './components/signupForm/SignupForm.vue'
 
 const routes = [
   { path: '/generate-table', component: GenerateTable, name: 'generate-table' },
@@ -37,6 +38,7 @@ const routes = [
   { path: '/tweet-ui', component: TweetUI, name: 'tweet-ui' },
   { path: '/like-button', component: LikeButton, name: 'like-button' },
   { path: '/mortgage-calculator', component: MortgageCalculator, name: 'mortgage-calculator' },
+  { path: '/signup-form', component: SignupForm, name: 'signup-form' },
   { path: '/', component: GenerateTable }
 ]
 

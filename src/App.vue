@@ -15,7 +15,8 @@ const routes = [
   'todo-list',
   'tweet-ui',
   'like-button',
-  'mortgage-calculator'
+  'mortgage-calculator',
+  'signup-form'
 ]
 </script>
 
